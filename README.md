@@ -2,5 +2,6 @@
 
 Common home for all our (extra) Archipelago documentation.
 
-This is not where to view it. I should include the best place to view once I've created the link to latest in the docs gen.
+The best place to read the docs is on the hosted github-pages site:  
+https://useless-allure.github.io/apdocs/latest/
 
