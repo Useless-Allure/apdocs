@@ -19,7 +19,7 @@
 
 .md-typeset .gamefreq0>.admonition-title::before,
 .md-typeset .gamefreq0>summary::before {
-    background-color: rgb(0, 0, 128);
+    background-color: #2135b1;
     -webkit-mask-image: var(--md-admonition-icon--gamefreq0);
     mask-image: var(--md-admonition-icon--gamefreq0);
 }
