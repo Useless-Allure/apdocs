@@ -1,8 +1,6 @@
 This is the root of our AP world docs.
 
-!!! greysondn "Early docs"
-    Ah, geez. Not even well developed, huh?
-    Even needs a tiny bit of text to encourage it to build.
+This is mostly extra documentation and things we've found out the hard way for the apworlds we've worked on.
 
-!!! gamefreq0 "Lorem Ipsum"
-    dolor simet
+You're best served by making sure you're reading the latest version, which should always be here:  
+https://useless-allure.github.io/apdocs/latest/
