@@ -6,6 +6,8 @@ copyright: 2026 Useless Allure
 
 nav:
     - Home: "index.md"
+    - Spyro the Dragon (PS1):
+        - overview: "spyro/overview.md"
 
 theme:
     name: material
