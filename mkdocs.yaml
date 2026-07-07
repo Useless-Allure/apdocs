@@ -43,8 +43,8 @@ theme:
 
     # font settings
     font:
-        text: Fuzzy Bubbles
-        code: PT Mono
+        text: Questrial
+        code: Source Code Pro
 
 extra:
     version:
