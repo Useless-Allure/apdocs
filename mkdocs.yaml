@@ -79,9 +79,11 @@ plugins:
                     paths:
                         - src
     - 
-        privacy                    # mostly to get things away from Google's CDN
+        privacy                   # mostly to get things away from Google's CDN
     -
         search
+    -
+        social
 
 
 
