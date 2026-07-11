@@ -1,0 +1,177 @@
+# name=River City Ransom EX (USA)
+# type=8-bit
+# endianness=BE
+
+# this is definitely incomplete and may not
+# be correct entirely. It's, however, not useless.
+
+\00=[end of text]\n
+
+01=□
+02=a
+03=b
+04=c
+05=d
+06=e
+07=f
+08=g
+09=h
+0A=i
+0B=j
+0C=k
+0D=l
+0E=m
+0F=n
+10=o
+11=p
+12=q
+13=r
+14=s
+15=t
+16=u
+17=v
+18=w
+19=x
+1A=y
+1B=z
+1C=✕
+1D=Ⓐ
+1E=Ⓑ
+1F=‘
+20=’
+21=“
+22=”
+23=⋯
+24=©
+25=○
+26=★
+27= 
+
+# Hiragana start
+# I don't really know Hiragana, so I'm only putting in,
+# like, four symbols here
+28=せ
+29=、
+2A=。
+2B=「
+2C=」
+2D=『
+2E=』
+# ...
+85=ん
+# Hiragana end
+
+86=·
+87=-
+88=[TR]
+89=♡
+8A=[SP]
+8B=[EN]
+8C=!
+8D=$
+8E=&
+8F=(
+90=)
+91=*
+92=+
+93=,
+94=-
+95=.
+96=/
+97=0
+98=1
+99=2
+9A=3
+9B=4
+9C=5
+9D=6
+9E=7
+9F=8
+A0=9
+A1=:
+A2=;
+A3=?
+A4=A
+A5=B
+A6=C
+A7=D
+A8=E
+A9=F
+AA=G
+AB=H
+AC=I
+AD=J
+AE=K
+AF=L
+B0=M
+B1=N
+B2=O
+B3=P
+B4=Q
+B5=R
+B6=S
+B7=T
+B8=U
+B9=V
+BA=W
+BB=X
+BC=Y
+BD=Z
+BE=¥
+BF=□
+
+# these symbol are all without backgrounds
+C0=[a]
+C1=[b]
+C2=[c]
+C3=[d]
+C4=[e]
+C5=[f]
+C6=[g]
+C7=[h]
+C8=[i]
+C9=[j]
+CA=[k]
+CB=[l]
+CC=[m]
+CD=[n]
+CE=[o]
+CF=[p]
+D0=[q]
+D1=[r]
+D2=[s]
+D3=[t]
+D4=[u]
+D5=[v]
+D6=[w]
+D7=[x]
+D8=[y]
+D9=[z]
+DA=[✕]
+DB=[Ⓐ]
+DC=[Ⓑ]
+DD=[‘]
+DE=[’]
+DF=[“]
+E0=[”]
+E1=[⋯]
+E2=[©]
+E3=[○]
+E4=[★]
+E5=[ ]
+E6=[、]
+E7=[。]
+E8=[「]
+E9=[」]
+EA=[『]
+EB=[』]
+# ... patch of hiragana again...
+$F9=[JMP1],%X
+$FA=[JMP2],%X
+$FB=[NAME],%X
+# ... FC is just some japanese symbol...
+# ... FD... start new message?
+$FE=[WAIT]
+# FF appears to be a type of newline but...
+# there's only two lines per message!
+*FF
