@@ -11,6 +11,6 @@
 # Blog
 
 * [20260711](20260711.md)
-    * [The Need for a Blog](20260711.md#The%20Need%20for%20a%20Blog)
-    * [Config settings as items](20260711.md#Config%20settings%20as%20items)
-    * [Callbacks](20260711.md#Callbacks)
+    * [The Need for a Blog](20260711.md#the-need-for-a-blog)
+    * [Config settings as items](20260711.md#config-settings-as-items)
+    * [Callbacks](20260711.md#callbacks)
