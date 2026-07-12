@@ -13,6 +13,9 @@ nav:
         - blog:
             - overview: "spyro/blog/overview.md"
             - "20260711": "spyro/blog/20260711.md"
+        - data
+            - overview: "spyro/data/overview.md"
+            - scratchpad: "spyro/data/scratchpad.md"
 
 theme:
     name: material
