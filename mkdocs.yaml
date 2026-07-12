@@ -10,6 +10,9 @@ nav:
         - overview: "rivercityransomex/overview.md"
     - Spyro the Dragon (PS1):
         - overview: "spyro/overview.md"
+        - blog:
+            - overview: "spyro/blog/overview.md"
+            - "20260711": "spyro/blog/20260711.md"
 
 theme:
     name: material
