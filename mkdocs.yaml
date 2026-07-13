@@ -14,7 +14,7 @@ nav:
             - overview: "spyro/blog/overview.md"
             - "20260711": "spyro/blog/20260711.md"
             - "20260712": "spyro/blog/20260712.md"
-        - data
+        - data:
             - overview: "spyro/data/overview.md"
             - scratchpad: "spyro/data/scratchpad.md"
 
