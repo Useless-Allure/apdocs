@@ -1,0 +1,1434 @@
+new_style:
+    -
+        name: Toasty
+        guard:
+            type: always
+        connections: []
+        locations: []
+        memory:
+            text_offset: Toasty text offset
+        groups:
+            - Boss Levels
+        extra:
+            total_gems: 100
+        children:
+            -
+                name: Toasty Start
+                guard:
+                    type: always
+                connections: []
+                locations:
+                    -
+                        name: Toasty - Nevin
+                        groups:
+                            - Dragons
+                        guard:
+                            type: memory_equals
+                            params:
+                                name: Toasty - Nevin
+                                value: True
+                        callbacks: []
+                memory: []
+                extra:
+                    total_gems: 100
+                children: []
+    -
+        name: Sunny Flight
+        guard:
+            type: always
+        connections: []
+        locations: []
+        memory:
+            text_offset: Sunny Flight text offset
+        groups:
+            - Flight Levels
+        extra:
+            total_gems: 300
+        children:
+            -
+                name: Sunny Flight Start
+                guard:
+                    type: always
+                connections: []
+                locations: []
+                memory: []
+                extra:
+                    total_gems: 300
+                children: []
+    -
+        name: Peace Keepers
+        guard:
+            type: always
+        connections: []
+        locations: []
+        memory:
+            text_offset: Peace Keepers text offset
+        groups: []
+        extra:
+            total_gems: 200
+        children:
+            -
+                name: Peace Keepers Start
+                guard:
+                    type: always
+                connections: []
+                locations:
+                    -
+                        name: Peace Keepers - Titan
+                        groups:
+                            - Dragons
+                        guard:
+                            type: memory_equals
+                            params:
+                                name: Peace Keepers - Titan
+                                value: True
+                        callbacks: []
+                    -
+                        name: Peace Keepers - Magnus
+                        groups:
+                            - Dragons
+                        guard:
+                            type: memory_equals
+                            params:
+                                name: Peace Keepers - Magnus
+                                value: True
+                        callbacks: []
+                    -
+                        name: Peace Keepers - Gunnar
+                        groups:
+                            - Dragons
+                        guard:
+                            type: memory_equals
+                            params:
+                                name: Peace Keepers - Gunnar
+                                value: True
+                        callbacks: []
+                    -
+                        name: Peace Keepers - Egg 1 (Pool)
+                        groups:
+                            - Eggs
+                        guard:
+                            type: memory_equals
+                            params:
+                                name: Peace Keepers - Egg 1 (Pool)
+                                value: True
+                        callbacks: []
+                memory: []
+                extra:
+                    total_gems: 200
+                children: []
+    -
+        name: Dry Canyon
+        guard:
+            type: always
+        connections: []
+        locations: []
+        memory:
+            text_offset: Dry Canyon text offset
+        groups: []
+        extra:
+            total_gems: 400
+        children:
+            -
+                name: Dry Canyon Start
+                guard:
+                    type: always
+                connections: []
+                locations:
+                    -
+                        name: Dry Canyon - Conan
+                        groups:
+                            - Dragons
+                        guard:
+                            type: memory_equals
+                            params:
+                                name: Dry Canyon - Conan
+                                value: True
+                        callbacks: []
+                    -
+                        name: Dry Canyon - Boris
+                        groups:
+                            - Dragons
+                        guard:
+                            type: memory_equals
+                            params:
+                                name: Dry Canyon - Boris
+                                value: True
+                        callbacks: []
+                    -
+                        name: Dry Canyon - Maximos
+                        groups:
+                            - Dragons
+                        guard:
+                            type: memory_equals
+                            params:
+                                name: Dry Canyon - Maximos
+                                value: True
+                        callbacks: []
+                    -
+                        name: Dry Canyon - Ivor
+                        groups:
+                            - Dragons
+                        guard:
+                            type: memory_equals
+                            params:
+                                name: Dry Canyon - Ivor
+                                value: True
+                        callbacks: []
+                    -
+                        name: Dry Canyon - Egg 1 (Starting Area)
+                        groups:
+                            - Eggs
+                        guard:
+                            type: memory_equals
+                            params:
+                                name: Dry Canyon - Egg 1 (Starting Area)
+                                value: True
+                        callbacks: []
+                memory: []
+                extra:
+                    total_gems: 400
+                children: []
+    -
+        name: Cliff Town
+        guard:
+            type: always
+        connections: []
+        locations: []
+        memory:
+            text_offset: Cliff Town text offset
+        groups: []
+        extra:
+            total_gems: 400
+        children:
+            -
+                name: Cliff Town Start
+                guard:
+                    type: always
+                connections: []
+                locations:
+                    -
+                        name: Cliff Town - Halvor
+                        groups:
+                            - Dragons
+                        guard:
+                            type: memory_equals
+                            params:
+                                name: Cliff Town - Halvor
+                                value: True
+                        callbacks: []
+                    -
+                        name: Cliff Town - Enzo
+                        groups:
+                            - Dragons
+                        guard:
+                            type: memory_equals
+                            params:
+                                name: Cliff Town - Enzo
+                                value: True
+                        callbacks: []
+                    -
+                        name: Cliff Town - Marco
+                        groups:
+                            - Dragons
+                        guard:
+                            type: memory_equals
+                            params:
+                                name: Cliff Town - Marco
+                                value: True
+                        callbacks: []
+                    -
+                        name: Cliff Town - Egg 1 (Square Building Past Bridge)
+                        groups:
+                            - Eggs
+                        guard:
+                            type: memory_equals
+                            params:
+                                name: Cliff Town - Egg 1 (Square Building Past Bridge)
+                                value: True
+                        callbacks: []
+                memory: []
+                extra:
+                    total_gems: 400
+                children: []
+    -
+        name: Ice Cavern
+        guard:
+            type: always
+        connections: []
+        locations: []
+        memory:
+            text_offset: Ice Cavern text offset
+        groups: []
+        extra:
+            total_gems: 400
+        children:
+            -
+                name: Ice Cavern Start
+                guard:
+                    type: always
+                connections: []
+                locations:
+                    -
+                        name: Ice Cavern - Ulric
+                        groups:
+                            - Dragons
+                        guard:
+                            type: memory_equals
+                            params:
+                                name: Ice Cavern - Ulric
+                                value: True
+                        callbacks: []
+                    -
+                        name: Ice Cavern - Todor
+                        groups:
+                            - Dragons
+                        guard:
+                            type: memory_equals
+                            params:
+                                name: Ice Cavern - Todor
+                                value: True
+                        callbacks: []
+                    -
+                        name: Ice Cavern - Andor
+                        groups:
+                            - Dragons
+                        guard:
+                            type: memory_equals
+                            params:
+                                name: Ice Cavern - Andor
+                                value: True
+                        callbacks: []
+                    -
+                        name: Ice Cavern - Asher
+                        groups:
+                            - Dragons
+                        guard:
+                            type: memory_equals
+                            params:
+                                name: Ice Cavern - Asher
+                                value: True
+                        callbacks: []
+                    -
+                        name: Ice Cavern - Ragnar
+                        groups:
+                            - Dragons
+                        guard:
+                            type: memory_equals
+                            params:
+                                name: Ice Cavern - Ragnar
+                                value: True
+                        callbacks: []
+                memory: []
+                extra:
+                    total_gems: 400
+                children: []
+    -
+        name: Doctor Shemp
+        guard:
+            type: always
+        connections: []
+        locations: []
+        memory:
+            text_offset: Doctor Shemp text offset
+        groups:
+            - Boss Levels
+        extra:
+            total_gems: 300
+        children:
+            -
+                name: Doctor Shemp Start
+                guard:
+                    type: always
+                connections: []
+                locations:
+                    -
+                        name: Doctor Shemp - Trondo
+                        groups:
+                            - Dragons
+                        guard:
+                            type: memory_equals
+                            params:
+                                name: Doctor Shemp - Trondo
+                                value: True
+                        callbacks: []
+                memory: []
+                extra:
+                    total_gems: 300
+                children: []
+    -
+        name: Night Flight
+        guard:
+            type: always
+        connections: []
+        locations: []
+        memory:
+            text_offset: Night Flight text offset
+        groups:
+            - Flight Levels
+        extra:
+            total_gems: 0  #TODO: Figure out total_gems
+        children:
+            -
+                name: Night Flight Start
+                guard:
+                    type: always
+                connections: []
+                locations: []
+                memory: []
+                extra:
+                    total_gems: 0
+                children: []
+    -
+        name: Magic Crafters
+        guard:
+            type: always
+        connections: []
+        locations: []
+        memory:
+            text_offset: Magic Crafters text offset
+        groups: []
+        extra:
+            total_gems: 300
+        children:
+            -
+                name: Magic Crafters Start
+                guard:
+                    type: always
+                connections: []
+                locations:
+                    -
+                        name: Magic Crafters - Cosmos
+                        groups:
+                            - Dragons
+                        guard:
+                            type: memory_equals
+                            params:
+                                name: Magic Crafters - Cosmos
+                                value: True
+                        callbacks: []
+                    -
+                        name: Magic Crafters - Zantor
+                        groups:
+                            - Dragons
+                        guard:
+                            type: memory_equals
+                            params:
+                                name: Magic Crafters - Zantor
+                                value: True
+                        callbacks: []
+                    -
+                        name: Magic Crafters - Boldar
+                        groups:
+                            - Dragons
+                        guard:
+                            type: memory_equals
+                            params:
+                                name: Magic Crafters - Boldar
+                                value: True
+                        callbacks: []
+                    -
+                        name: Magic Crafters - Egg 1 (Entry)
+                        groups:
+                            - Eggs
+                        guard:
+                            type: memory_equals
+                            params:
+                                name: Magic Crafters - Egg 1 (Entry)
+                                value: True
+                        callbacks: []
+                    -
+                        name: Magic Crafters - Egg 2 (Courtyard)
+                        groups:
+                            - Eggs
+                        guard:
+                            type: memory_equals
+                            params:
+                                name: Magic Crafters - Egg 2 (Courtyard)
+                                value: True
+                        callbacks: []
+                memory: []
+                extra:
+                    total_gems: 300
+                children: []
+    -
+        name: Alpine Ridge
+        guard:
+            type: always
+        connections: []
+        locations: []
+        memory:
+            text_offset: Alpine Ridge text offset
+        groups: []
+        extra:
+            total_gems: 500
+        children:
+            -
+                name: Alpine Ridge Start
+                guard:
+                    type: always
+                connections: []
+                locations:
+                    -
+                        name: Alpine Ridge - Zane
+                        groups:
+                            - Dragons
+                        guard:
+                            type: memory_equals
+                            params:
+                                name: Alpine Ridge - Zane
+                                value: True
+                        callbacks: []
+                    -
+                        name: Alpine Ridge - Eldrid
+                        groups:
+                            - Dragons
+                        guard:
+                            type: memory_equals
+                            params:
+                                name: Alpine Ridge - Eldrid
+                                value: True
+                        callbacks: []
+                    -
+                        name: Alpine Ridge - Zander
+                        groups:
+                            - Dragons
+                        guard:
+                            type: memory_equals
+                            params:
+                                name: Alpine Ridge - Zander
+                                value: True
+                        callbacks: []
+                    -
+                        name: Alpine Ridge - Kelvin
+                        groups:
+                            - Dragons
+                        guard:
+                            type: memory_equals
+                            params:
+                                name: Alpine Ridge - Kelvin
+                                value: True
+                        callbacks: []
+                    -
+                        name: Alpine Ridge - Egg 1 (Distant Cave)
+                        groups:
+                            - Eggs
+                        guard:
+                            type: memory_equals
+                            params:
+                                name: Alpine Ridge - Egg 1 (Distant Cave)
+                                value: True
+                        callbacks: []
+                memory: []
+                extra:
+                    total_gems: 500
+                children: []
+    -
+        name: High Caves
+        guard:
+            type: always
+        connections: []
+        locations: []
+        memory:
+            text_offset: High Caves text offset
+        groups: []
+        extra:
+            total_gems: 500
+        children:
+            -
+                name: High Caves Start
+                guard:
+                    type: always
+                connections: []
+                locations:
+                    -
+                        name: High Caves - Cyrus
+                        groups:
+                            - Dragons
+                        guard:
+                            type: memory_equals
+                            params:
+                                name: High Caves - Cyrus
+                                value: True
+                        callbacks: []
+                    -
+                        name: High Caves - Cedric
+                        groups:
+                            - Dragons
+                        guard:
+                            type: memory_equals
+                            params:
+                                name: High Caves - Cedric
+                                value: True
+                        callbacks: []
+                    -
+                        name: High Caves - Ajax
+                        groups:
+                            - Dragons
+                        guard:
+                            type: memory_equals
+                            params:
+                                name: High Caves - Ajax
+                                value: True
+                        callbacks: []
+                    -
+                        name: High Caves - Egg 1 (Distant Pool)
+                        groups:
+                            - Eggs
+                        guard:
+                            type: memory_equals
+                            params:
+                                name: High Caves - Egg 1 (Distant Pool)
+                                value: True
+                        callbacks: []
+                    -
+                        name: High Caves - Egg 2 (Cave)
+                        groups:
+                            - Eggs
+                        guard:
+                            type: memory_equals
+                            params:
+                                name: High Caves - Egg 2 (Cave)
+                                value: True
+                        callbacks: []
+                memory: []
+                extra:
+                    total_gems: 500
+                children: []
+    -
+        name: Wizard Peak
+        guard:
+            type: always
+        connections: []
+        locations: []
+        memory:
+            text_offset: Wizard Peak text offset
+        groups: []
+        extra:
+            total_gems: 500
+        children:
+            -
+                name: Wizard Peak Start
+                guard:
+                    type: always
+                connections: []
+                locations:
+                    -
+                        name: Wizard Peak - Jarvis
+                        groups:
+                            - Dragons
+                        guard:
+                            type: memory_equals
+                            params:
+                                name: Wizard Peak - Jarvis
+                                value: True
+                        callbacks: []
+                    -
+                        name: Wizard Peak - Hexus
+                        groups:
+                            - Dragons
+                        guard:
+                            type: memory_equals
+                            params:
+                                name: Wizard Peak - Hexus
+                                value: True
+                        callbacks: []
+                    -
+                        name: Wizard Peak - Lucas
+                        groups:
+                            - Dragons
+                        guard:
+                            type: memory_equals
+                            params:
+                                name: Wizard Peak - Lucas
+                                value: True
+                        callbacks: []
+                    -
+                        name: Wizard Peak - Egg 1 (Quad Wizard Ramp)
+                        groups:
+                            - Eggs
+                        guard:
+                            type: memory_equals
+                            params:
+                                name: Wizard Peak - Egg 1 (Quad Wizard Ramp)
+                                value: True
+                        callbacks: []
+                    -
+                        name: Wizard Peak - Egg 2 (End Area Pool)
+                        groups:
+                            - Eggs
+                        guard:
+                            type: memory_equals
+                            params:
+                                name: Wizard Peak - Egg 2 (End Area Pool)
+                                value: True
+                        callbacks: []
+                memory: []
+                extra:
+                    total_gems: 500
+                children: []
+    -
+        name: Blowhard
+        guard:
+            type: always
+        connections: []
+        locations: []
+        memory:
+            text_offset: Blowhard text offset
+        groups:
+            - Boss Levels
+        extra:
+            total_gems: 400
+        children:
+            -
+                name: Blowhard Start
+                guard:
+                    type: always
+                connections: []
+                locations:
+                    -
+                        name: Blowhard - Altair
+                        groups:
+                            - Dragons
+                        guard:
+                            type: memory_equals
+                            params:
+                                name: Blowhard - Altair
+                                value: True
+                        callbacks: []
+                memory: []
+                extra:
+                    total_gems: 400
+                children: []
+    -
+        name: Crystal Flight
+        guard:
+            type: always
+        connections: []
+        locations: []
+        memory:
+            text_offset: Crystal Flight text offset
+        groups:
+            - Flight Levels
+        extra:
+            total_gems: 300
+        children:
+            -
+                name: Crystal Flight Start
+                guard:
+                    type: always
+                connections: []
+                locations: []
+                memory: []
+                extra:
+                    total_gems: 300
+                children: []
+    -
+        name: Beast Makers
+        guard:
+            type: always
+        connections: []
+        locations: []
+        memory:
+            text_offset: Beast Makers text offset
+        groups: []
+        extra:
+            total_gems: 300
+        children:
+            -
+                name: Beast Makers Start
+                guard:
+                    type: always
+                connections: []
+                locations:
+                    -
+                        name: Beast Makers - Bruno
+                        groups:
+                            - Dragons
+                        guard:
+                            type: memory_equals
+                            params:
+                                name: Beast Makers - Bruno
+                                value: True
+                        callbacks: []
+                    -
+                        name: Beast Makers - Cleetus
+                        groups:
+                            - Dragons
+                        guard:
+                            type: memory_equals
+                            params:
+                                name: Beast Makers - Cleetus
+                                value: True
+                        callbacks: []
+                memory: []
+                extra:
+                    total_gems: 300
+                children: []
+    -
+        name: Terrace Village
+        guard:
+            type: always
+        connections: []
+        locations: []
+        memory:
+            text_offset: Terrace Village text offset
+        groups: []
+        extra:
+            total_gems: 400
+        children:
+            -
+                name: Terrace Village Start
+                guard:
+                    type: always
+                connections: []
+                locations:
+                    -
+                        name: Terrace Village - Claude
+                        groups:
+                            - Dragons
+                        guard:
+                            type: memory_equals
+                            params:
+                                name: Terrace Village - Claude
+                                value: True
+                        callbacks: []
+                    -
+                        name: Terrace Village - Cyprin
+                        groups:
+                            - Dragons
+                        guard:
+                            type: memory_equals
+                            params:
+                                name: Terrace Village - Cyprin
+                                value: True
+                        callbacks: []
+                memory: []
+                extra:
+                    total_gems: 400
+                children: []
+    -
+        name: Misty Bog
+        guard:
+            type: always
+        connections: []
+        locations: []
+        memory:
+            text_offset: Misty Bog text offset
+        groups: []
+        extra:
+            total_gems: 500
+        children:
+            -
+                name: Misty Bog Start
+                guard:
+                    type: always
+                connections: []
+                locations:
+                    -
+                        name: Misty Bog - Rosco
+                        groups:
+                            - Dragons
+                        guard:
+                            type: memory_equals
+                            params:
+                                name: Misty Bog - Rosco
+                                value: True
+                        callbacks: []
+                    -
+                        name: Misty Bog - Damon
+                        groups:
+                            - Dragons
+                        guard:
+                            type: memory_equals
+                            params:
+                                name: Misty Bog - Damon
+                                value: True
+                        callbacks: []
+                    -
+                        name: Misty Bog - Zeke
+                        groups:
+                            - Dragons
+                        guard:
+                            type: memory_equals
+                            params:
+                                name: Misty Bog - Zeke
+                                value: True
+                        callbacks: []
+                    -
+                        name: Misty Bog - Bubba
+                        groups:
+                            - Dragons
+                        guard:
+                            type: memory_equals
+                            params:
+                                name: Misty Bog - Bubba
+                                value: True
+                        callbacks: []
+                memory: []
+                extra:
+                    total_gems: 500
+                children: []
+    -
+        name: Tree Tops
+        guard:
+            type: always
+        connections: []
+        locations: []
+        memory:
+            text_offset: Tree Tops text offset
+        groups: []
+        extra:
+            total_gems: 500
+        children:
+            -
+                name: Tree Tops Start
+                guard:
+                    type: always
+                connections: []
+                locations:
+                    -
+                        name: Tree Tops - Lyle
+                        groups:
+                            - Dragons
+                        guard:
+                            type: memory_equals
+                            params:
+                                name: Tree Tops - Lyle
+                                value: True
+                        callbacks: []
+                    -
+                        name: Tree Tops - Jed
+                        groups:
+                            - Dragons
+                        guard:
+                            type: memory_equals
+                            params:
+                                name: Tree Tops - Jed
+                                value: True
+                        callbacks: []
+                    -
+                        name: Tree Tops - Isaak
+                        groups:
+                            - Dragons
+                        guard:
+                            type: memory_equals
+                            params:
+                                name: Tree Tops - Isaak
+                                value: True
+                        callbacks: []
+                memory: []
+                extra:
+                    total_gems: 500
+                children: []
+    -
+        name: Metalhead
+        guard:
+            type: always
+        connections: []
+        locations: []
+        memory:
+            text_offset: Metalhead text offset
+        groups:
+            - Boss Levels
+        extra:
+            total_gems: 500
+        children:
+            -
+                name: Metalhead Start
+                guard:
+                    type: always
+                connections: []
+                locations:
+                    -
+                        name: Metalhead - Sadiki
+                        groups:
+                            - Dragons
+                        guard:
+                            type: memory_equals
+                            params:
+                                name: Metalhead - Sadiki
+                                value: True
+                        callbacks: []
+                memory: []
+                extra:
+                    total_gems: 500
+                children: []
+    -
+        name: Wild Flight
+        guard:
+            type: always
+        connections: []
+        locations: []
+        memory:
+            text_offset: Wild Flight text offset
+        groups:
+            - Flight Levels
+        extra:
+            total_gems: 300
+        children:
+            -
+                name: Wild Flight Start
+                guard:
+                    type: always
+                connections: []
+                locations: []
+                memory: []
+                extra:
+                    total_gems: 300
+                children: []
+    -
+        name: Dream Weavers
+        guard:
+            type: always
+        connections: []
+        locations: []
+        memory:
+            text_offset: Dream Weavers text offset
+        groups: []
+        extra:
+            total_gems: 300
+        children:
+            -
+                name: Dream Weavers Start
+                guard:
+                    type: always
+                connections: []
+                locations:
+                    -
+                        name: Dream Weavers - Mazi
+                        groups:
+                            - Dragons
+                        guard:
+                            type: memory_equals
+                            params:
+                                name: Dream Weavers - Mazi
+                                value: True
+                        callbacks: []
+                    -
+                        name: Dream Weavers - Lateef
+                        groups:
+                            - Dragons
+                        guard:
+                            type: memory_equals
+                            params:
+                                name: Dream Weavers - Lateef
+                                value: True
+                        callbacks: []
+                    -
+                        name: Dream Weavers - Zikomo
+                        groups:
+                            - Dragons
+                        guard:
+                            type: memory_equals
+                            params:
+                                name: Dream Weavers - Zikomo
+                                value: True
+                        callbacks: []
+                memory: []
+                extra:
+                    total_gems: 300
+                children: []
+    -
+        name: Gnasty's World
+        guard:
+            type: always
+        connections: []
+        locations: []
+        memory:
+            text_offset: Gnasty's World text offset
+        groups: []
+        extra:
+            total_gems: 200
+        children:
+            -
+                name: Gnasty's World Start
+                guard:
+                    type: always
+                connections: []
+                locations:
+                    -
+                        name: Gnasty's World - Delbin/Magnus
+                        groups:
+                            - Dragons
+                        guard:
+                            type: memory_equals
+                            params:
+                                name: Gnasty's World - Delbin/Magnus
+                                value: True
+                        callbacks: []
+                memory: []
+                extra:
+                    total_gems: 200
+                children: []
+    -
+        name: Dark Passage
+        guard:
+            type: always
+        connections: []
+        locations: []
+        memory:
+            text_offset: Dark Passage text offset
+        groups: []
+        extra:
+            total_gems: 500
+        children:
+            -
+                name: Dark Passage Start
+                guard:
+                    type: always
+                connections: []
+                locations:
+                    -
+                        name: Dark Passage - Kasiya
+                        groups:
+                            - Dragons
+                        guard:
+                            type: memory_equals
+                            params:
+                                name: Dark Passage - Kasiya
+                                value: True
+                        callbacks: []
+                    -
+                        name: Dark Passage - Azizi
+                        groups:
+                            - Dragons
+                        guard:
+                            type: memory_equals
+                            params:
+                                name: Dark Passage - Azizi
+                                value: True
+                        callbacks: []
+                    -
+                        name: Dark Passage - Bakari
+                        groups:
+                            - Dragons
+                        guard:
+                            type: memory_equals
+                            params:
+                                name: Dark Passage - Bakari
+                                value: True
+                        callbacks: []
+                    -
+                        name: Dark Passage - Apara
+                        groups:
+                            - Dragons
+                        guard:
+                            type: memory_equals
+                            params:
+                                name: Dark Passage - Apara
+                                value: True
+                        callbacks: []
+                    -
+                        name: Dark Passage - Obasi
+                        groups:
+                            - Dragons
+                        guard:
+                            type: memory_equals
+                            params:
+                                name: Dark Passage - Obasi
+                                value: True
+                        callbacks: []
+                memory: []
+                extra:
+                    total_gems: 500
+                children: []
+    -
+        name: Lofty Castle
+        guard:
+            type: always
+        connections: []
+        locations: []
+        memory:
+            text_offset: Lofty Castle text offset
+        groups: []
+        extra:
+            total_gems: 400
+        children:
+            -
+                name: Lofty Castle Start
+                guard:
+                    type: always
+                connections: []
+                locations:
+                    -
+                        name: Lofty Castle - Mudada
+                        groups:
+                            - Dragons
+                        guard:
+                            type: memory_equals
+                            params:
+                                name: Lofty Castle - Mudada
+                                value: True
+                        callbacks: []
+                    -
+                        name: Lofty Castle - Baruti
+                        groups:
+                            - Dragons
+                        guard:
+                            type: memory_equals
+                            params:
+                                name: Lofty Castle - Baruti
+                                value: True
+                        callbacks: []
+                    -
+                        name: Lofty Castle - Useni
+                        groups:
+                            - Dragons
+                        guard:
+                            type: memory_equals
+                            params:
+                                name: Lofty Castle - Useni
+                                value: True
+                        callbacks: []
+                memory: []
+                extra:
+                    total_gems: 400
+                children: []
+    -
+        name: Haunted Towers
+        guard:
+            type: always
+        connections: []
+        locations: []
+        memory:
+            text_offset: Haunted Towers text offset
+        groups: []
+        extra:
+            total_gems: 500
+        children:
+            -
+                name: Haunted Towers Start
+                guard:
+                    type: always
+                connections: []
+                locations:
+                    -
+                        name: Haunted Towers - Kosoko
+                        groups:
+                            - Dragons
+                        guard:
+                            type: memory_equals
+                            params:
+                                name: Haunted Towers - Kosoko
+                                value: True
+                        callbacks: []
+                    -
+                        name: Haunted Towers - Lutalo
+                        groups:
+                            - Dragons
+                        guard:
+                            type: memory_equals
+                            params:
+                                name: Haunted Towers - Lutalo
+                                value: True
+                        callbacks: []
+                    -
+                        name: Haunted Towers - Copano
+                        groups:
+                            - Dragons
+                        guard:
+                            type: memory_equals
+                            params:
+                                name: Haunted Towers - Copano
+                                value: True
+                        callbacks: []
+                memory: []
+                extra:
+                    total_gems: 500
+                children: []
+    -
+        name: Jacques
+        guard:
+            type: always
+        connections: []
+        locations: []
+        memory:
+            text_offset: Jacques text offset
+        groups:
+            - Boss Levels
+        extra:
+            total_gems: 500
+        children:
+            -
+                name: Jacques Start
+                guard:
+                    type: always
+                connections: []
+                locations:
+                    -
+                        name: Jacques - Unika
+                        groups:
+                            - Dragons
+                        guard:
+                            type: memory_equals
+                            params:
+                                name: Jacques - Unika
+                                value: True
+                        callbacks: []
+                    -
+                        name: Jacques - Revilo
+                        groups:
+                            - Dragons
+                        guard:
+                            type: memory_equals
+                            params:
+                                name: Jacques - Revilo
+                                value: True
+                        callbacks: []
+                memory: []
+                extra:
+                    total_gems: 500
+                children: []
+    -
+        name: Icy Flight
+        guard:
+            type: always
+        connections: []
+        locations: []
+        memory:
+            text_offset: Icy Flight text offset
+        groups:
+            - Flight Levels
+        extra:
+            total_gems: 300
+        children:
+            -
+                name: Icy Flight Start
+                guard:
+                    type: always
+                connections: []
+                locations: []
+                memory: []
+                extra:
+                    total_gems: 300
+                children: []
+    -
+        name: Gnorc Cove
+        guard:
+            type: always
+        connections: []
+        locations: []
+        memory:
+            text_offset: Gnorc Cove text offset
+        groups: []
+        extra:
+            total_gems: 400
+        children:
+            -
+                name: Gnorc Cove Start
+                guard:
+                    type: always
+                connections: []
+                locations:
+                    -
+                        name: Gnorc Cove - Lateef
+                        groups:
+                            - Dragons
+                        guard:
+                            type: memory_equals
+                            params:
+                                name: Gnorc Cove - Lateef
+                                value: True
+                        callbacks: []
+                    -
+                        name: Gnorc Cove - Tomas
+                        groups:
+                            - Dragons
+                        guard:
+                            type: memory_equals
+                            params:
+                                name: Gnorc Cove - Tomas
+                                value: True
+                        callbacks: []
+                memory: []
+                extra:
+                    total_gems: 400
+                children: []
+    -
+        name: Twilight Harbor
+        guard:
+            type: always
+        connections: []
+        locations: []
+        memory:
+            text_offset: Twilight Harbor text offset
+        groups: []
+        extra:
+            total_gems: 400
+        children:
+            -
+                name: Twilight Harbor Start
+                guard:
+                    type: always
+                connections: []
+                locations:
+                    -
+                        name: Twilight Harbor - Cosmos
+                        groups:
+                            - Dragons
+                        guard:
+                            type: memory_equals
+                            params:
+                                name: Twilight Harbor - Cosmos
+                                value: True
+                        callbacks: []
+                    -
+                        name: Twilight Harbor - Cleetus
+                        groups:
+                            - Dragons
+                        guard:
+                            type: memory_equals
+                            params:
+                                name: Twilight Harbor - Cleetus
+                                value: True
+                        callbacks: []
+                memory: []
+                extra:
+                    total_gems: 400
+                children: []
+    -
+        name: Gnasty Gnorc
+        guard:
+            type: always
+        connections: []
+        locations: []
+        memory:
+            text_offset: Gnasty Gnorc text offset
+        groups:
+            - Boss Levels
+        extra:
+            total_gems: 500
+        children:
+            -
+                name: Gnasty Gnorc Start
+                guard:
+                    type: always
+                connections: []
+                locations: []
+                memory: []
+                extra:
+                    total_gems: 500
+                children: []
+    -
+        name: Gnasty's Loot
+        guard:
+            type: always
+        connections: []
+        locations: []
+        memory:
+            text_offset: Gnasty's Loot text offset
+        groups: []
+        extra:
+            total_gems: 2000
+        children:
+            -
+                name: Gnasty's Loot Start
+                guard:
+                    type: always
+                connections: []
+                locations: []
+                memory: []
+                extra:
+                    total_gems: 2000
+                children: []
