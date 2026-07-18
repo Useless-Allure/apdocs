@@ -9,6 +9,9 @@
 ---
 
 # Blog
+
+* [20260718](20260718.md)
+    * [Model Chat Display Test](20260718.md#model-chat-display-test)
 * [20260712](20260712.md)
     * [Move Randomization Prerequisites](20260712.md#move-randomization-prerequisites)
     * [World Map Redesign](20260712.md#world-map-redesign)

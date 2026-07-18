@@ -9,6 +9,7 @@ name = "pypi"
 mike = "*"
 mkdocs-material = "*"
 mkdocstrings = {extras = ["python"], version = "*"}
+mkdocs-robust-chat = {git = "https://github.com/greysondn/mkdocs-robust-chat.git", ref = "v0.1.1"}
 
 [requires]
 python_version = "3.12"

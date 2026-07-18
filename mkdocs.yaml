@@ -88,6 +88,57 @@ plugins:
     - 
         privacy                   # mostly to get things away from Google's CDN
     -
+        robust-chat:
+            # Global participant defaults — same header syntax as a chat block.
+            # Applied to every block; per-block `displays:` overrides field by field.
+            global_config: |
+                displays:
+                    claude:
+                        type: model
+                        style:
+                            background_color: #d97757;
+                            border_color: #d97757;
+                            font_color: #141413;
+                    greysondn:
+                        type: human
+                        style:
+                            background_color: #000;
+                            border_color: #222;
+                            font_color: #fff;
+                    gamefreq0:
+                        type: human
+            # Extensions used to render the *inner* message markdown (separate from the page's
+            # own Markdown instance). Default shown.
+            inner_markdown_extensions:
+                - abbr
+                - admonition
+                - extra
+                - fenced_code
+                - footnotes
+                - meta
+                - pymdownx.details
+                - pymdownx.highlight:
+                    anchor_linenums: true
+                    auto_title: true
+                    line_spans: __span
+                    linenums: true
+                    linenums_style: pymdownx-inline
+                    pygments_lang_class: true
+                    use_pygments: true
+                - pymdownx.inlinehilite
+                - pymdownx.superfences:
+                    custom_fences:
+                        -
+                            name: mermaid
+                            class: mermaid
+                            format: !!python/name:pymdownx.superfences.fence_code_format
+                - pymdownx.tasklist:
+                    custom_checkbox: true
+                - sane_lists
+                - tables
+            # Set false to manage the CSS/JS yourself.
+            copy_assets: true
+    -
         search
     -
         social
@@ -117,6 +168,11 @@ markdown_extensions:
                 name: mermaid
                 class: mermaid
                 format: !!python/name:pymdownx.superfences.fence_code_format
+            -
+                name: chat
+                class: chat
+                format: !!python/name:robust_chat.superfence.format_chat
+                validator: !!python/name:robust_chat.superfence.validator
     - pymdownx.tasklist:
         custom_checkbox: true
     - tables
