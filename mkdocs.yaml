@@ -101,16 +101,17 @@ plugins:
                 displays:
                     claude:
                         type: model
+                        avatar: assets/avatars/claude.svg
                         style:
                             background_color: #d97757;
-                            border_color: #d97757;
+                            border_color: #d977571a;
                             font_color: #141413;
                     greysondn:
                         type: human
+                        avatar: assets/avatars/greysondn.png
                         style:
-                            background_color: #000;
-                            border_color: #222;
-                            font_color: #fff;
+                            background_color: #51a0ad1a;
+                            border_color: #448aff;
                     gamefreq0:
                         type: human
             # Extensions used to render the *inner* message markdown (separate from the page's
@@ -135,8 +136,6 @@ plugins:
         search
     -
         social
-
-
 
 markdown_extensions:
     - abbr
