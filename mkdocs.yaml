@@ -101,14 +101,14 @@ plugins:
                 displays:
                     claude:
                         type: model
-                        avatar: assets/avatars/claude.svg
+                        avatar: /assets/avatars/claude.svg
                         style:
                             background_color: #d97757;
                             border_color: #d977571a;
                             font_color: #141413;
                     greysondn:
                         type: human
-                        avatar: assets/avatars/greysondn.png
+                        avatar: /assets/avatars/greysondn.png
                         style:
                             background_color: #51a0ad1a;
                             border_color: #448aff;
