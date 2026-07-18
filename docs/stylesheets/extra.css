@@ -41,14 +41,3 @@
     -webkit-mask-image: var(--md-admonition-icon--greysondn);
     mask-image: var(--md-admonition-icon--greysondn);
 }
-
-/* rc stuff should really be upstream, but trying to fix it first */
-.rc-thoughts > summary::before
-{
-    top: 4px;
-}
-
-.rc-thoughts > summary::after
-{
-    top: 4px;
-}
