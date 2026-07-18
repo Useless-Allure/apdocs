@@ -62,6 +62,10 @@ extra:
 
 extra_css:
   - stylesheets/extra.css
+  - assets/robust-chat/chat.css
+
+extra_javascript:
+  - assets/robust-chat/chat.js
 
 docs_dir: "docs"
 
