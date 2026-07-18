@@ -123,23 +123,10 @@ plugins:
                 - footnotes
                 - meta
                 - pymdownx.details
-                - pymdownx.highlight:
-                    anchor_linenums: true
-                    auto_title: true
-                    line_spans: __span
-                    linenums: true
-                    linenums_style: pymdownx-inline
-                    pygments_lang_class: true
-                    use_pygments: true
+                - pymdownx.highlight
                 - pymdownx.inlinehilite
-                - pymdownx.superfences:
-                    custom_fences:
-                        -
-                            name: mermaid
-                            class: mermaid
-                            format: !!python/name:pymdownx.superfences.fence_code_format
-                - pymdownx.tasklist:
-                    custom_checkbox: true
+                - pymdownx.superfences
+                - pymdownx.tasklist
                 - sane_lists
                 - tables
             # Set false to manage the CSS/JS yourself.
