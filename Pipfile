@@ -8,6 +8,7 @@ name = "pypi"
 [dev-packages]
 mike = "*"
 mkdocs-material = "*"
+mkdocs-material[imaging] = "*"
 mkdocstrings = {extras = ["python"], version = "*"}
 mkdocs-robust-chat = {git = "https://github.com/greysondn/mkdocs-robust-chat.git", ref = "v0.1.1"}
 
