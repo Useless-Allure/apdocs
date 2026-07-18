@@ -946,37 +946,7 @@ to play around with this if you really want to, I guess.</p>
 requests in the discord channel. The anticipated plan is to just dump the
 whole chat for users to examine, with PII stripped.</p>
 </div>
-<p>```chat
-user: system
-message:</p>
-<blockquote>
-<p>This is an example of a system message.</p>
-</blockquote>
-<p>user: claude
-date: 2025-06-01T14:30:00-04:00
-message:</p>
-<blockquote>
-<p>Claude didn't say this, it's just an example of a model message.</p>
-</blockquote>
-<p>user: system
-message:</p>
-<blockquote>
-<p>This is an example of another system message.</p>
-</blockquote>
-<p>user: greysondn
-date: 2025-06-01T14:31:12-04:00
-thoughts:</p>
-<blockquote>
-<p>hopefully this works well.
-message:
-That should be enough for a basic test, I think.
-commentary:
-greysondn:</p>
-<blockquote>
-<p>Eh, it works. Awful but functional for a test.
-```</p>
-</blockquote>
-</blockquote>
+<div class="rc-chat" data-commentary="collapsed"><div class="rc-toolbar"><button class="rc-commentary-toggle" type="button" aria-pressed="false">Commentary</button></div><div class="rc-thread"><div class="rc-row rc-row--system"><div class="rc-msg rc-msg--system" data-user="system"><div class="rc-bubble"><div class="rc-body"><p>This is an example of a system message.</p></div></div></div><div class="rc-commentary"></div></div><div class="rc-row rc-row--right"><div class="rc-msg rc-msg--right" data-user="claude" data-type="model"><span class="rc-avatar">C</span><div class="rc-col"><div class="rc-meta"><span class="rc-name">claude</span><time class="rc-date" datetime="2025-06-01T14:30:00-04:00">2025-06-01T14:30:00-04:00</time></div><div class="rc-bubble" style="background-color: #d97757; border-color: #d97757; color: #141413;"><div class="rc-body"><p>Claude didn't say this, it's just an example of a model message.</p></div></div></div></div><div class="rc-commentary"></div></div><div class="rc-row rc-row--system"><div class="rc-msg rc-msg--system" data-user="system"><div class="rc-bubble"><div class="rc-body"><p>This is an example of another system message.</p></div></div></div><div class="rc-commentary"></div></div><div class="rc-row rc-row--left"><div class="rc-msg rc-msg--left" data-user="greysondn" data-type="human"><span class="rc-avatar">G</span><div class="rc-col"><div class="rc-meta"><span class="rc-name">greysondn</span><time class="rc-date" datetime="2025-06-01T14:31:12-04:00">2025-06-01T14:31:12-04:00</time></div><details class="rc-thoughts"><summary>Thoughts</summary><div class="rc-body"><p>hopefully this works well.</p></div></details><div class="rc-bubble" style="background-color: #000; border-color: #222; color: #fff;"><div class="rc-body"><p>That should be enough for a basic test, I think.</p></div></div></div></div><div class="rc-commentary"><div class="rc-comment"><div class="rc-commenter">greysondn</div><div class="rc-body"><p>Eh, it works. Awful but functional for a test.</p></div></div></div></div></div></div>
 
 
 
